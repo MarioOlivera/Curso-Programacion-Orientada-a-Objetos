@@ -1,7 +1,7 @@
 <?php
-
-class Route {
-    public $id;
-    public $start = array();
-    public $end = array();
-}
+    class Route{
+        private id;
+        private start[];
+        private end[];
+    }
+?>

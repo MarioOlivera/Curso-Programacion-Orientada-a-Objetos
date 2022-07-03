@@ -1,22 +1,15 @@
+import java.sql.Driver;
 
-class Main
-{
+class Main{
+     
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
-
-        UberX uberx = new UberX("AMQ123",new Account("Andres Herrera","AND123"), "Volkswagen", "Gol Trend");
+        System.out.println("Hola Nieves desde Java");
+        UberX uberx= new UberX("AMQ123",new Account("Gabriel Martinez", "AND123"), "Chevrolet", "Sonic");
         uberx.setPassenger(4);
         uberx.printDataCar();
 
-        UberVan ubervan = new UberVan("AMQ123",new Account("Andres Herrera","AND123"), null, null);
-        ubervan.setPassenger(4);
-        ubervan.printDataCar();
-
-        /* 
-        Car car2 = new Car("QWE567",new Account("Andrea Herrera","AND321"));
-        car2.passegenger = 3;
-
-        car2.printDataCar();
-        */
+        UberVan uberVan= new UberVan("JIM0124", new Account("Mia", "34rgs"));
+        uberVan.setPassenger(6);
+        uberVan.printDataCar();
     }
 }
